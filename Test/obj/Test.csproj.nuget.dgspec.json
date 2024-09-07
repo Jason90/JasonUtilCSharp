@@ -1,0 +1,198 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Test\\Test.csproj": {}
+  },
+  "projects": {
+    "c:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Algorithm\\Algorithm.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Algorithm\\Algorithm.csproj",
+        "projectName": "Algorithm",
+        "projectPath": "c:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Algorithm\\Algorithm.csproj",
+        "packagesPath": "C:\\Users\\zhhot\\.nuget\\packages\\",
+        "outputPath": "c:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Algorithm\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zhhot\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.108/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Test\\Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Test\\Test.csproj",
+        "projectName": "Test",
+        "projectPath": "C:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Test\\Test.csproj",
+        "packagesPath": "C:\\Users\\zhhot\\.nuget\\packages\\",
+        "outputPath": "C:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zhhot\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "c:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Algorithm\\Algorithm.csproj": {
+                "projectPath": "c:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Algorithm\\Algorithm.csproj"
+              },
+              "C:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Util\\Util.csproj": {
+                "projectPath": "C:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Util\\Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.0.4, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.0.4, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.108/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Util\\Util.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Util\\Util.csproj",
+        "projectName": "Jason.09.08.24.001.Test",
+        "projectPath": "C:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Util\\Util.csproj",
+        "packagesPath": "C:\\Users\\zhhot\\.nuget\\packages\\",
+        "outputPath": "C:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Util\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zhhot\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.108/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

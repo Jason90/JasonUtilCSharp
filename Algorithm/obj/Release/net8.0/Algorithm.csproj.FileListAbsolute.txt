@@ -1,0 +1,11 @@
+c:\JEF\Code\Jason\C#\JasonUtilCSharp\Algorithm\bin\Release\net8.0\Algorithm.deps.json
+C:\JEF\Code\Jason\C#\JasonUtilCSharp\Algorithm\bin\Release\net8.0\Algorithm.dll
+C:\JEF\Code\Jason\C#\JasonUtilCSharp\Algorithm\bin\Release\net8.0\Algorithm.pdb
+C:\JEF\Code\Jason\C#\JasonUtilCSharp\Algorithm\obj\Release\net8.0\Algorithm.GeneratedMSBuildEditorConfig.editorconfig
+C:\JEF\Code\Jason\C#\JasonUtilCSharp\Algorithm\obj\Release\net8.0\Algorithm.AssemblyInfoInputs.cache
+C:\JEF\Code\Jason\C#\JasonUtilCSharp\Algorithm\obj\Release\net8.0\Algorithm.AssemblyInfo.cs
+C:\JEF\Code\Jason\C#\JasonUtilCSharp\Algorithm\obj\Release\net8.0\Algorithm.csproj.CoreCompileInputs.cache
+C:\JEF\Code\Jason\C#\JasonUtilCSharp\Algorithm\obj\Release\net8.0\Algorithm.dll
+C:\JEF\Code\Jason\C#\JasonUtilCSharp\Algorithm\obj\Release\net8.0\refint\Algorithm.dll
+C:\JEF\Code\Jason\C#\JasonUtilCSharp\Algorithm\obj\Release\net8.0\Algorithm.pdb
+c:\JEF\Code\Jason\C#\JasonUtilCSharp\Algorithm\obj\Release\net8.0\ref\Algorithm.dll
