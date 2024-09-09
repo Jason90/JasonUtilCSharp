@@ -3,7 +3,7 @@ namespace Jason.Test;
 using Jason.Util;
 
 [TestClass]
-public class UTSerialize
+public class TestSerialize
 {
     [TestMethod]
     public void ObjToJson()
