@@ -10,3 +10,4 @@ C:\JEF\Code\Jason\C#\JasonUtilCSharp\Util\obj\Debug\net8.0\Util.dll
 C:\JEF\Code\Jason\C#\JasonUtilCSharp\Util\obj\Debug\net8.0\refint\Util.dll
 C:\JEF\Code\Jason\C#\JasonUtilCSharp\Util\obj\Debug\net8.0\Util.pdb
 C:\JEF\Code\Jason\C#\JasonUtilCSharp\Util\obj\Debug\net8.0\ref\Util.dll
+C:\JEF\Code\Jason\C#\JasonUtilCSharp\Util\obj\Debug\net8.0\Util.sourcelink.json

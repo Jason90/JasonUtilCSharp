@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Evolver")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7d3df41617dca74909cdcdcd7ec51adcdc4ef3b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Util")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Util")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

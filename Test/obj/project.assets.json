@@ -1131,8 +1131,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "c:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Algorithm\\Algorithm.csproj": {
-              "projectPath": "c:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Algorithm\\Algorithm.csproj"
+            "C:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Algorithm\\Algorithm.csproj": {
+              "projectPath": "C:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Algorithm\\Algorithm.csproj"
             },
             "C:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Util\\Util.csproj": {
               "projectPath": "C:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Util\\Util.csproj"

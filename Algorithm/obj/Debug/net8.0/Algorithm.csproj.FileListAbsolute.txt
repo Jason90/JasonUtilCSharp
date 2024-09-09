@@ -9,3 +9,4 @@ C:\JEF\Code\Jason\C#\JasonUtilCSharp\Algorithm\obj\Debug\net8.0\Algorithm.dll
 C:\JEF\Code\Jason\C#\JasonUtilCSharp\Algorithm\obj\Debug\net8.0\refint\Algorithm.dll
 C:\JEF\Code\Jason\C#\JasonUtilCSharp\Algorithm\obj\Debug\net8.0\Algorithm.pdb
 C:\JEF\Code\Jason\C#\JasonUtilCSharp\Algorithm\obj\Debug\net8.0\ref\Algorithm.dll
+C:\JEF\Code\Jason\C#\JasonUtilCSharp\Algorithm\obj\Debug\net8.0\Algorithm.sourcelink.json

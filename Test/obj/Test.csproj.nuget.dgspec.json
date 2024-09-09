@@ -4,14 +4,14 @@
     "C:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Test\\Test.csproj": {}
   },
   "projects": {
-    "c:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Algorithm\\Algorithm.csproj": {
+    "C:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Algorithm\\Algorithm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Algorithm\\Algorithm.csproj",
+        "projectUniqueName": "C:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Algorithm\\Algorithm.csproj",
         "projectName": "Algorithm",
-        "projectPath": "c:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Algorithm\\Algorithm.csproj",
+        "projectPath": "C:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Algorithm\\Algorithm.csproj",
         "packagesPath": "C:\\Users\\zhhot\\.nuget\\packages\\",
-        "outputPath": "c:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Algorithm\\obj\\",
+        "outputPath": "C:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Algorithm\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zhhot\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -79,8 +79,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Algorithm\\Algorithm.csproj": {
-                "projectPath": "c:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Algorithm\\Algorithm.csproj"
+              "C:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Algorithm\\Algorithm.csproj": {
+                "projectPath": "C:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Algorithm\\Algorithm.csproj"
               },
               "C:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Util\\Util.csproj": {
                 "projectPath": "C:\\JEF\\Code\\Jason\\C#\\JasonUtilCSharp\\Util\\Util.csproj"

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Jason.09.08.24.001.Test</id>
+    <version>1.0.0</version>
+    <authors>Jason Zhu</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="f7d3df41617dca74909cdcdcd7ec51adcdc4ef3b" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\JEF\Code\Jason\C#\JasonUtilCSharp\Util\bin\Debug\net8.0\Util.dll" target="lib\net8.0\Util.dll" />
+  </files>
+</package>
