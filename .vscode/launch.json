@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "C#: Lab Debug",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/Lab/Lab.csproj"
+        },
+       
+        {
             "name": "C#: Test Debug",
             "type": "dotnet",
             "request": "launch",

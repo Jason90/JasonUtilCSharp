@@ -1,0 +1,42 @@
+
+# --------------------------
+# 1. Build output directories (core exclusions)
+# --------------------------
+bin/
+obj/
+out/
+publish/
+
+# --------------------------
+# 2. IDE configuration files (VS Code specific)
+# --------------------------
+.vscode/
+*.code-workspace
+
+# --------------------------
+# 3. Dependency management
+# --------------------------
+packages/
+project.assets.json
+*.nupkg
+.nuget/
+
+# --------------------------
+# 4. Logs and temporary files
+# --------------------------
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# --------------------------
+# 5. Scenario-specific files (keep as needed)
+# --------------------------
+# Testing related
+TestResults/
+coverage/
+
+# Web project related
+wwwroot/lib/
+appsettings.Development.json

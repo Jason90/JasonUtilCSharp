@@ -1,5 +1,6 @@
 ﻿namespace Jason.Algorithm;
 
+using System.Collections;
 using System.Text;
 
 public class StringAlgorithm
@@ -148,34 +149,116 @@ public class StringAlgorithm
 
         return results;
     }
+    #endregion  1431
 
-    public IList<bool> KidsWithCandies1(int[] candies, int extraCandies)
+    #region 443. String Compression
+
+    public int Compress(char[] chars)
     {
-        //Step1: Find max num
-        int max = 0;
-        foreach (int candie in candies)
+        // Empty or single-character arrays cannot be compressed
+        if (chars.Length <= 1) return chars.Length;
+
+        int writeIndex = 0;
+        int count = 1;
+
+        for (int readIndex = 0; readIndex < chars.Length; readIndex++)
         {
-            if (candie > max)
+            // If it is the last readIndex, or if the characters are different, write the current character
+            if (readIndex == chars.Length - 1 || chars[readIndex + 1] != chars[readIndex])
             {
-                max = candie;
-            }
-        }
-        //Step2: Find num>=max-extra 
-        IList<bool> results = new List<bool>();
-        int cutoff = max - extraCandies;
-        foreach (int candie in candies)
-        {
-            if (candie >= cutoff)
-            {
-                results.Add(true);
+                chars[writeIndex++] = chars[readIndex];
+                // Only write the count when it is greater than 1
+                if (count > 1)
+                {
+                    string num = count.ToString();
+                    for (int i = 0; i < num.Length; i++)
+                    {
+                        chars[writeIndex++] = num[i];
+                    }
+                    count = 1;//reset the counter
+                }
             }
             else
             {
-                results.Add(false);
+                count++;
             }
         }
-
-        return results;
+        // return the last index of written
+        return writeIndex;
     }
-    #endregion  1431
+
+    // public int CompressStatistic(char[] chars)
+    // {
+    //     // Empty or single-character arrays cannot be compressed
+    //     if (chars.Length <= 1) return chars.Length;
+
+    //     Dictionary<char, int> dict = new Dictionary<char, int>();
+    //     foreach (char c in chars)
+    //     {
+    //         if (dict.ContainsKey(c))
+    //         {
+    //             dict[c] += 1;
+    //         }
+    //         else
+    //         {
+    //             dict.Add(c, 1);
+    //         }
+    //     }
+    //     StringBuilder sb = new StringBuilder();
+    //     foreach (KeyValuePair<char, int> pair in dict)
+    //     {
+    //         sb.Append(pair.Key);
+    //         if(pair.Value >1)
+    //         {
+    //             sb.Append(pair.Value);
+    //         }
+    //     }
+    //     string result=sb.ToString();
+    //     chars=new char[result.Length];
+    //     Array.Copy(result.ToCharArray(), chars, result.Length);
+
+    //     return chars.Length;
+
+    // }
+
+
+    #endregion 443
+
+    #region 8000 回文结构
+
+    public bool IsPalindrome(string str, bool ignoreSpace = true, bool ignoreCase = true)
+        {
+            if (str == null) return false;
+
+            int left = 0;
+            int right = str.Length - 1;
+
+            while (left < right)
+            {
+                if (ignoreSpace)
+                {
+                    if (str[left] == ' ') { left++; continue; }
+                    if (str[right] == ' ') { right--; continue; }
+                }
+
+                if (ignoreCase)
+                {
+                    if (char.ToLower(str[left]) != char.ToLower(str[right])) return false;
+                }
+                else
+                {
+                    if (str[left] != str[right]) return false;
+                }
+                left++;
+                right--;
+            }
+
+            return true;
+        }
+
+        // public void Check(string str, bool shouldBePalindrome, bool ignoreSpace = true, bool ignoreCase = true)
+        // {
+        //     Console.WriteLine(IsPalindrome(str,ignoreSpace,ignoreCase) == shouldBePalindrome ? "pass" : "FAIL");
+        // }
+    #endregion 8000 回文结构
 }
